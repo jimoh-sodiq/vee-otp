@@ -157,6 +157,8 @@ export const OtpContainer = defineComponent({
                   disabled: slot.props.disabled,
                   class: slot.props.class,
                   type: slot.props.type,
+                  style: slot.props.style,
+                  placeholder: slot.props.placeholder,
                   value: otpHandler.value[i],
                 },
                 { name: "sodiq" }
